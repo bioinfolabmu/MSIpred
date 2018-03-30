@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(
-		name='MSIpre',
+		name='MSIpred',
 		version='0.1',
 		description='A package to predict status of microsatellite instability for tumors from associated mutation annotation files',
 		url='',
