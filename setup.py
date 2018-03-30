@@ -7,7 +7,7 @@ setup(
 		author='Chen Wang',
 		author_email='wangc29@miamioh.edu',
 		license='MIT',
-		packages=['MSIpre'],
+		packages=['MSIpred'],
 		install_requires=[
 			'pandas',
 			'intervaltree',
