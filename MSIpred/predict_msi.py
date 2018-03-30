@@ -21,4 +21,5 @@ def msi_prediction(feature_table):
 	model_path = os.path.join(current_path,'best_svm_pipeline.pkl')
 	best_pipeline = joblib.load(model_path)
 	predicted_msi =best_pipeline.predict(feature_table)
+	predicted_msi = ['MSS' if result == 0 else 'MSI-H' for result in predicted_msi]
 	return DataFrame(zip(feature_table.index,predicted_msi),columns=['Tumor','Predicted_MSI_Status'])
