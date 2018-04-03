@@ -49,13 +49,13 @@ A toy MAF data containing somatic mutation annotations of three colon tumors (CO
 * Create a feature dataframe used for further MSI prediction given size (Mb) of captured exome sequence from which MAF file is generated.
 (for COAD project, exome size is 44Mb)
 
-```
+```python
 >>> toy_features = tagged_toy_maf.make_feature_table(exome_size=44)
 ```
 
 * Predict tumor MSI status (MSS of MSI-H) using a SVM classifier given the feature dataframe obtained in last step. A pandas dataframe containing predicted MSI status for all tumors in the very begining MAF file ('toy.maf') will be obtained.
 
-```
+```python
 >>> predicted_MSI = mp.msi_prediction(toy_features)
 ```
 
