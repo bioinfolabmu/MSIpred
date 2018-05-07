@@ -22,7 +22,7 @@ python setup.py install
 ```
 ## Examples
 ### Example Data
-A toy MAF data containing somatic mutation annotations of three colon tumors (COAD)  named as toy.maf, and an reference file of exome annotating loci of simple repeats for GRCh38 (Genome Reference Consortium Human Reference 38) obtained from UCSC genome annotation database at [http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/ (http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/)
+A toy MAF data containing somatic mutation annotations of three colon tumors (COAD)  named as toy.maf, and an reference file of exome annotating loci of simple repeats for GRCh38 (Genome Reference Consortium Human Reference 38) obtained from UCSC genome annotation database at [http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/)
 ### Build a bioinformatics pipeline for tumor MSI prediction
 * Initialization of a MAF file object using a tumor MAF file
 
