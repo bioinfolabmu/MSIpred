@@ -1,1 +1,2 @@
 include MSIpred/best_svm_pipeline.pkl
+include README.md
