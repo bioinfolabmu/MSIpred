@@ -70,4 +70,4 @@ The returned svm model object, new_model, can then be used for MSI prediction by
 ## License
 
 This project is licensed under the MIT License, see [LICENSE](LICENSE) for more information.
-[https://github.com/bioinfolabmu/MSIpred/blob/master/LICENSE](https://github.com/wangc29/MSIpred/blob/master/LICENSE)
+[https://github.com/bioinfolabmu/MSIpred/blob/master/LICENSE](https://github.com/bioinfolabmu/MSIpred/blob/master/LICENSE)
